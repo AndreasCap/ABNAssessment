@@ -1,0 +1,32 @@
+.ChartContainer {
+    width: 100%;
+
+    &__chart {
+        display: inline-block;
+    }
+
+    &__node-detail {
+        position: relative;
+        background-color: lightyellow;
+        width: 300px;
+        padding: 10px;
+    }
+    &__close {
+        position: absolute;
+        top: 0;
+        right: -2em;
+        height: 2em;
+        width: 2em;
+        background-color: green;
+        text-align: center;
+        color: white;
+    }
+    &__node {
+        height: 50px;
+        width: 50px;
+
+        &--selected {
+            background-color: lightblue;
+        }
+    }
+}
