@@ -67,7 +67,7 @@ export default {
         this.newData = newData // Update newData
         TreeData(this.newData, 'tree', this.handleClick)
       } catch (error) {
-        console.error('Error fetching data:', error)
+        console.error('Error fetching data: ', error)
       }
     }
   },
