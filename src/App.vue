@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import ChartView from '@/components/ChartView.vue';
+import ChartView from '@/components/ChartView.vue'
 </script>
 
 <template>
@@ -7,4 +7,3 @@ import ChartView from '@/components/ChartView.vue';
     <ChartView />
   </div>
 </template>
-
