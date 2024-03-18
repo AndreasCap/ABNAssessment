@@ -1,6 +1,6 @@
 # ABNAssessment
 
-This template should help get you started developing with Vue 3 in Vite.
+This is the take home assignment for the ABN Project.
 
 ## Recommended IDE Setup
 
@@ -43,3 +43,10 @@ npm run test:unit
 ```sh
 npm run lint
 ```
+
+### Application usage
+
+Application shows hierarchy tree from data provided by the backend.
+Clicking a node shows a pop up with that specific node data.
+Clicking a diferent node will update the pop up.
+The pop up can be closed by clicking te X icon next to the pop up.
